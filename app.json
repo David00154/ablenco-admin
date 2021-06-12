@@ -1,0 +1,12 @@
+{
+  "name": "ablenco-hairs-admin-panel",
+  "description": "An admin panel and api for ablenco-hairs",
+  "keywords": ["ablen-hairs", "wigs"],
+  "addons": ["heroku-postgresql:hobby-dev"],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

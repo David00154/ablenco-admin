@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_page_banners",
+  "info": {
+    "name": "banner",
+    "icon": "th",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    }
+  }
+}

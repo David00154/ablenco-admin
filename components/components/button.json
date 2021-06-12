@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "name": "button",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "enabled": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "default": "All Products",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "default": "/products",
+      "required": false
+    }
+  }
+}

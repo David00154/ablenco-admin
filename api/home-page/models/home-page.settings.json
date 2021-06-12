@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.banner"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.about",
+      "required": true
+    },
+    "products": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.products",
+      "required": true
+    }
+  }
+}
